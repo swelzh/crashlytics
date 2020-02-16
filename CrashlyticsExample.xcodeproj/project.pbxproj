@@ -21,6 +21,8 @@
 		5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */; };
 		5F99610D1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */; };
 		5FDE055D1B0DAA090037B82F /* AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE055C1B0DAA090037B82F /* AppTests.m */; };
+		62B1A6A2973D8D4E8320E9CB /* Pods_CrashlyticsExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB957262F1E8E1084113565F /* Pods_CrashlyticsExampleSwift.framework */; };
+		F94B129EC5B5167BC32142D4 /* Pods_CrashlyticsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4807EC825AB2102908613E6D /* Pods_CrashlyticsExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		1073482620333B71004A66D1 /* CrashlyticsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1073482820333B71004A66D1 /* CrashReportingExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReportingExampleUITests.m; sourceTree = "<group>"; };
 		1073482A20333B71004A66D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4A2741309490D9B8F20E72 /* Pods-CrashlyticsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsExample.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsExample/Pods-CrashlyticsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4807EC825AB2102908613E6D /* Pods_CrashlyticsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A534C1ADE670C00F81DF0 /* CrashlyticsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A53501ADE670C00F81DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F5A53511ADE670C00F81DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +73,10 @@
 		5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5FDE05581B0DAA090037B82F /* CrashlyticsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE055C1B0DAA090037B82F /* AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTests.m; sourceTree = "<group>"; };
+		6D8EAD51DA22775F622C8FDA /* Pods-CrashlyticsExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsExampleSwift/Pods-CrashlyticsExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		83BD7D6DF7ADD2F9CCCA59DB /* Pods-CrashlyticsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsExample.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsExample/Pods-CrashlyticsExample.release.xcconfig"; sourceTree = "<group>"; };
+		8F0E85AEA6379A33354003BF /* Pods-CrashlyticsExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsExampleSwift/Pods-CrashlyticsExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		DB957262F1E8E1084113565F /* Pods_CrashlyticsExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94B129EC5B5167BC32142D4 /* Pods_CrashlyticsExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B1A6A2973D8D4E8320E9CB /* Pods_CrashlyticsExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +148,8 @@
 				1073482720333B71004A66D1 /* CrashlyticsExampleUITests */,
 				5F5A534D1ADE670C00F81DF0 /* Products */,
 				5F9961041AE0CF4F0034F503 /* Shared */,
+				94AF1D81404E2DCA3E3FCC04 /* Pods */,
+				60BFDA6549A17D9D88075DFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -203,6 +215,27 @@
 			path = CrashlyticsExampleTests;
 			sourceTree = "<group>";
 		};
+		60BFDA6549A17D9D88075DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4807EC825AB2102908613E6D /* Pods_CrashlyticsExample.framework */,
+				DB957262F1E8E1084113565F /* Pods_CrashlyticsExampleSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AF1D81404E2DCA3E3FCC04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A2741309490D9B8F20E72 /* Pods-CrashlyticsExample.debug.xcconfig */,
+				83BD7D6DF7ADD2F9CCCA59DB /* Pods-CrashlyticsExample.release.xcconfig */,
+				6D8EAD51DA22775F622C8FDA /* Pods-CrashlyticsExampleSwift.debug.xcconfig */,
+				8F0E85AEA6379A33354003BF /* Pods-CrashlyticsExampleSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,10 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5A536F1ADE670C00F81DF0 /* Build configuration list for PBXNativeTarget "CrashlyticsExample" */;
 			buildPhases = (
+				2B6AF689C5CCFC356C06D26C /* [CP] Check Pods Manifest.lock */,
 				5F5A53481ADE670C00F81DF0 /* Sources */,
 				5F5A53491ADE670C00F81DF0 /* Frameworks */,
 				5F5A534A1ADE670C00F81DF0 /* Resources */,
 				10E114DA20E3DDE20013E4A4 /* ShellScript */,
+				88A40AD38D5E32C12A2A4653 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,10 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5A53991ADE67D500F81DF0 /* Build configuration list for PBXNativeTarget "CrashlyticsExampleSwift" */;
 			buildPhases = (
+				4AAAD1FC6F9B72C2121967CA /* [CP] Check Pods Manifest.lock */,
 				5F5A53751ADE67D500F81DF0 /* Sources */,
 				5F5A53761ADE67D500F81DF0 /* Frameworks */,
 				5F5A53771ADE67D500F81DF0 /* Resources */,
 				10E114DB20E3DDF00013E4A4 /* ShellScript */,
+				8F22BE880A99A8B3251EE66A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +464,94 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		2B6AF689C5CCFC356C06D26C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashlyticsExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AAAD1FC6F9B72C2121967CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashlyticsExampleSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A40AD38D5E32C12A2A4653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsExample/Pods-CrashlyticsExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsExample/Pods-CrashlyticsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F22BE880A99A8B3251EE66A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsExampleSwift/Pods-CrashlyticsExampleSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsExampleSwift/Pods-CrashlyticsExampleSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -710,6 +835,7 @@
 		};
 		5F5A53701ADE670C00F81DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4A2741309490D9B8F20E72 /* Pods-CrashlyticsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,6 +855,7 @@
 		};
 		5F5A53711ADE670C00F81DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BD7D6DF7ADD2F9CCCA59DB /* Pods-CrashlyticsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -748,6 +875,7 @@
 		};
 		5F5A53951ADE67D500F81DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8EAD51DA22775F622C8FDA /* Pods-CrashlyticsExampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -766,6 +894,7 @@
 		};
 		5F5A53961ADE67D500F81DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0E85AEA6379A33354003BF /* Pods-CrashlyticsExampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
